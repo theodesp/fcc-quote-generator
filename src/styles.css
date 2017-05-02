@@ -1,0 +1,30 @@
+.main {
+    background: transparent url("https://www.toptal.com/designers/subtlepatterns/patterns/seigaiha.png") repeat scroll 0% 0%;
+    font-family: Helvetica Neue, sans-serif;
+}
+
+.quote-container {
+    color: #586e75;
+}
+
+.top-margin {
+    margin-top: 2.5rem;
+}
+
+.font-default {
+    font-family: clara, cursive;
+}
+
+.relative-pos {
+    position: relative;
+}
+
+q {
+    quotes: "“" "”" "‘" "’";
+}
+q:before {
+    content: open-quote;
+}
+q:after {
+    content: close-quote;
+}
